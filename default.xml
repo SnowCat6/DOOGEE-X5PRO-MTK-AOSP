@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+
+<remote name="opengapps" fetch="https://github.com/opengapps/"  />
+
+<project path="vendor/google/build" name="aosp_build" revision="master" remote="opengapps" />
+<project path="vendor/opengapps/sources/all" name="all" clone-depth="1" revision="master" remote="opengapps" />
+<!-- If you need other/additional targets, follow the same template: -->
+<project path="vendor/opengapps/sources/arm" name="arm" clone-depth="1" revision="master" remote="opengapps" />
+<project path="vendor/opengapps/sources/arm64" name="arm64" clone-depth="1" revision="master" remote="opengapps" />
+
+<remote name="SnowCat6" fetch="https://github.com/SnowCat6/"  />
+<project path="vendor/busybox" name="vendor_busybox" clone-depth="1" revision="master" remote="SnowCat6" />
+
+<!--
+<remote name="omnirom" fetch="https://github.com/omnirom/"  />
+<project path="android/bootable/recovery" name="android_bootable_recovery" clone-depth="1" revision="android-6.0" remote="omnirom" />
+-->
+
+</manifest>
