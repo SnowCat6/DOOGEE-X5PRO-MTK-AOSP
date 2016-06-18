@@ -11,6 +11,7 @@
 
 <remote name="SnowCat6" fetch="https://github.com/SnowCat6/"  />
 <project path="vendor/busybox" name="vendor_busybox" clone-depth="1" revision="master" remote="SnowCat6" />
+<project path="vendor/mediatek/proprietary/custom/X5PRO" name="vendor_mediatek_proprietary_custom_X5PRO" clone-depth="1" revision="master" remote="SnowCat6" />
 
 <!--
 <remote name="omnirom" fetch="https://github.com/omnirom/"  />
