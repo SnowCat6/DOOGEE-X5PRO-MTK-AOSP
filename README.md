@@ -1,5 +1,5 @@
-prepare folder, you must download MTK source code from internet and unpak into this place
-make folder for source code of AOSP MTK
+Prepare folder, you must download MTK source code from internet and unpack into this place.
+Make folder for source code of AOSP MTK
 > mkdir alps
 > cd alps
 
