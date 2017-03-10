@@ -11,11 +11,12 @@
 
 
 <remote name="SnowCat6" fetch="https://github.com/SnowCat6/"  />
-<project path="device/DOOGEE" name="DEVICE_DOOGEE" clone-depth="1" revision="Android7.1.1" remote="SnowCat6" />
+<project path="device/DOOGEE" name="DEVICE_DOOGEE" revision="Android7.1.1" remote="SnowCat6" />
 <project path="vendor/mediatek/proprietary/custom" name="vendor-mediatek-proprietary-custom" revision="Android7.1.1" remote="SnowCat6" />
 <project path="vendor/DOOGEE" name="vendor-DOOGEE" revision="Android7.1.1" remote="SnowCat6" />
+<project path="kernel-3.18" name="DOOGEE-kernel-3.18" revision="Android7.1.1" remote="SnowCat6" />
 
-<project path="vendor/busybox" name="vendor_busybox" clone-depth="1" revision="master" remote="SnowCat6" />
+<project path="vendor/busybox" name="vendor_busybox" revision="master" remote="SnowCat6" />
 
 <!--
 <remote name="omnirom" fetch="https://github.com/omnirom/"  />
