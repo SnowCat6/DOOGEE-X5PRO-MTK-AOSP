@@ -21,3 +21,9 @@ for x64 AOSP
 lunch full_X5PROx64-user && make -j4
 ```
 Good like!
+
+
+If you have less than 15GB RAM you must execute script before any build step
+```
+export JACK_SERVER_VM_ARGUMENTS="-Dfile.encoding=UTF-8 -XX:+TieredCompilation -Xmx3500m"
+```
