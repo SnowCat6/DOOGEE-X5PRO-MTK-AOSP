@@ -9,7 +9,7 @@ initialize REPO with sources
 repo init -u git@github.com:SnowCat6/DOOGEE-X5PRO-MTK-AOSP.git
 repo sync -j4
 ```
-make AOSP android 5.x or 6.x - automatic detection settings
+make AOSP android 7.x - automatic detection settings
 for x32 AOSP
 ```
 . build/envsetup.sh
