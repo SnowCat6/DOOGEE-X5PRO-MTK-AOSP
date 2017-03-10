@@ -15,6 +15,7 @@
 <project path="vendor/mediatek/proprietary/custom" name="vendor-mediatek-proprietary-custom" revision="Android7.1.1" remote="SnowCat6" />
 <project path="vendor/DOOGEE" name="vendor-DOOGEE" revision="Android7.1.1" remote="SnowCat6" />
 <project path="kernel-3.18" name="DOOGEE-kernel-3.18" revision="Android7.1.1" remote="SnowCat6" />
+<project path="vendor/mediatek/proprietary/modem" name="vendor-mediatek-proprietary-modem" revision="Android7.1.1" remote="SnowCat6" />
 
 <project path="vendor/busybox" name="vendor_busybox" revision="master" remote="SnowCat6" />
 
