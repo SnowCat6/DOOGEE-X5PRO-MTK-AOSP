@@ -10,15 +10,20 @@ repo init -u git@github.com:SnowCat6/DOOGEE-X5PRO-MTK-AOSP.git
 repo sync -j4
 ```
 make AOSP android 7.x - automatic detection settings
-for x32 AOSP
+for DOOGEE X5PROx32 AOSP
 ```
 . build/envsetup.sh
 lunch full_X5PROx32-user && make -j4
 ```
-for x64 AOSP
+for DOOGEE X5PROx64 AOSP
 ```
 . build/envsetup.sh
 lunch full_X5PROx64-user && make -j4
+```
+for DOOGEE X5 6580 AOSP
+```
+. build/envsetup.sh
+lunch full_X5-user && make -j4
 ```
 Good like!
 
