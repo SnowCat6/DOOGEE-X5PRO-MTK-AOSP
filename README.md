@@ -1,4 +1,7 @@
 Prepare folder, you must download MTK source code from internet and unpack into this place.
+
+This all custom files for compile DOOGEE X5PRO NT6735P and DOOGEE X5 MT6580 mobile phones.
+
 Make folder for source code of AOSP MTK
 ```
 mkdir alps
