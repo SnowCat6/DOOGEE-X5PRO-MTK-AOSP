@@ -9,7 +9,7 @@ cd alps
 ```
 initialize REPO with sources 
 ```
-repo init -u git@github.com:SnowCat6/DOOGEE-X5PRO-MTK-AOSP.git
+repo init -u https://github.com/SnowCat6/DOOGEE-X5PRO-MTK-AOSP.git
 repo sync -j4
 ```
 make AOSP android 7.x - automatic detection settings
